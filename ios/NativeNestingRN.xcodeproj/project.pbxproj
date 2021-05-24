@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1658B5374539FAEBDF4530D6 /* libPods-NativeNestingRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 173071FE83256F0E9F4F31D4 /* libPods-NativeNestingRN.a */; };
+		26069A427A9E6E83D7604A2E /* libPods-NativeNestingRN-NativeNestingRNUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C772864FBB7F867C8CE72E /* libPods-NativeNestingRN-NativeNestingRNUITests.a */; };
+		8F25C32A604CE7C8838ABCA6 /* libPods-NativeNestingRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C1474FA9E8AE42150876EB /* libPods-NativeNestingRNTests.a */; };
+		A96F85B42654F091009CE67C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96F85B32654F091009CE67C /* AppDelegate.m */; };
+		A96F85BA2654F091009CE67C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96F85B92654F091009CE67C /* ViewController.m */; };
+		A96F85BD2654F091009CE67C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96F85BB2654F091009CE67C /* Main.storyboard */; };
+		A96F85BF2654F094009CE67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96F85BE2654F094009CE67C /* Assets.xcassets */; };
+		A96F85C22654F094009CE67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96F85C02654F094009CE67C /* LaunchScreen.storyboard */; };
+		A96F85C52654F094009CE67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A96F85C42654F094009CE67C /* main.m */; };
+		A96F85CF2654F094009CE67C /* NativeNestingRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96F85CE2654F094009CE67C /* NativeNestingRNTests.m */; };
+		A96F85DA2654F094009CE67C /* NativeNestingRNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96F85D92654F094009CE67C /* NativeNestingRNUITests.m */; };
+		A998CABB26579F0A008AC983 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998CABA26579F0A008AC983 /* File.swift */; };
+		A998CAC02657A89E008AC983 /* index.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A998CABF2657A89E008AC983 /* index.ios.bundle */; };
+		A998CAFC2657AFAC008AC983 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A998CAF92657AFAC008AC983 /* HttpRequest.m */; };
+		A998CAFD2657AFAC008AC983 /* UploadFormParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A998CAFA2657AFAC008AC983 /* UploadFormParam.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96F85CB2654F094009CE67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96F85A72654F091009CE67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96F85AE2654F091009CE67C;
+			remoteInfo = NativeNestingRN;
+		};
+		A96F85D62654F094009CE67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96F85A72654F091009CE67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96F85AE2654F091009CE67C;
+			remoteInfo = NativeNestingRN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EF4069A897441CB8F68ED7 /* Pods-NativeNestingRN-NativeNestingRNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRN-NativeNestingRNUITests.debug.xcconfig"; path = "Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		03C772864FBB7F867C8CE72E /* libPods-NativeNestingRN-NativeNestingRNUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeNestingRN-NativeNestingRNUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173071FE83256F0E9F4F31D4 /* libPods-NativeNestingRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeNestingRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274CA31A1A05EB1D402D346C /* Pods-NativeNestingRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRN.debug.xcconfig"; path = "Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN.debug.xcconfig"; sourceTree = "<group>"; };
+		614F24BC8F974D89A7E5341C /* Pods-NativeNestingRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRNTests.release.xcconfig"; path = "Target Support Files/Pods-NativeNestingRNTests/Pods-NativeNestingRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		70C1474FA9E8AE42150876EB /* libPods-NativeNestingRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeNestingRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB86A43B1EAC152375AAF05 /* Pods-NativeNestingRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRNTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeNestingRNTests/Pods-NativeNestingRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A96F85AF2654F091009CE67C /* NativeNestingRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeNestingRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96F85B22654F091009CE67C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A96F85B32654F091009CE67C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A96F85B82654F091009CE67C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A96F85B92654F091009CE67C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A96F85BC2654F091009CE67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A96F85BE2654F094009CE67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A96F85C12654F094009CE67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A96F85C32654F094009CE67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96F85C42654F094009CE67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A96F85CA2654F094009CE67C /* NativeNestingRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeNestingRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96F85CE2654F094009CE67C /* NativeNestingRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeNestingRNTests.m; sourceTree = "<group>"; };
+		A96F85D02654F094009CE67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96F85D52654F094009CE67C /* NativeNestingRNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeNestingRNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96F85D92654F094009CE67C /* NativeNestingRNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeNestingRNUITests.m; sourceTree = "<group>"; };
+		A96F85DB2654F094009CE67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A998CAB926579F0A008AC983 /* NativeNestingRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeNestingRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		A998CABA26579F0A008AC983 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A998CABF2657A89E008AC983 /* index.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.bundle; sourceTree = "<group>"; };
+		A998CAF82657AFAC008AC983 /* UploadFormParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFormParam.h; sourceTree = "<group>"; };
+		A998CAF92657AFAC008AC983 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		A998CAFA2657AFAC008AC983 /* UploadFormParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFormParam.m; sourceTree = "<group>"; };
+		A998CAFB2657AFAC008AC983 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		E027026D088F2786D02704EA /* Pods-NativeNestingRN-NativeNestingRNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRN-NativeNestingRNUITests.release.xcconfig"; path = "Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBF62ED5CC78364CD8A8FB85 /* Pods-NativeNestingRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeNestingRN.release.xcconfig"; path = "Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96F85AC2654F091009CE67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1658B5374539FAEBDF4530D6 /* libPods-NativeNestingRN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85C72654F094009CE67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F25C32A604CE7C8838ABCA6 /* libPods-NativeNestingRNTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85D22654F094009CE67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26069A427A9E6E83D7604A2E /* libPods-NativeNestingRN-NativeNestingRNUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632559BDBEF9F1CEA801E6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274CA31A1A05EB1D402D346C /* Pods-NativeNestingRN.debug.xcconfig */,
+				FBF62ED5CC78364CD8A8FB85 /* Pods-NativeNestingRN.release.xcconfig */,
+				02EF4069A897441CB8F68ED7 /* Pods-NativeNestingRN-NativeNestingRNUITests.debug.xcconfig */,
+				E027026D088F2786D02704EA /* Pods-NativeNestingRN-NativeNestingRNUITests.release.xcconfig */,
+				9EB86A43B1EAC152375AAF05 /* Pods-NativeNestingRNTests.debug.xcconfig */,
+				614F24BC8F974D89A7E5341C /* Pods-NativeNestingRNTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A96F85A62654F091009CE67C = {
+			isa = PBXGroup;
+			children = (
+				A998CABA26579F0A008AC983 /* File.swift */,
+				A96F85B12654F091009CE67C /* NativeNestingRN */,
+				A96F85CD2654F094009CE67C /* NativeNestingRNTests */,
+				A96F85D82654F094009CE67C /* NativeNestingRNUITests */,
+				A96F85B02654F091009CE67C /* Products */,
+				632559BDBEF9F1CEA801E6FD /* Pods */,
+				FE1ACDCE39130BC993E4C198 /* Frameworks */,
+				A998CAB926579F0A008AC983 /* NativeNestingRN-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		A96F85B02654F091009CE67C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96F85AF2654F091009CE67C /* NativeNestingRN.app */,
+				A96F85CA2654F094009CE67C /* NativeNestingRNTests.xctest */,
+				A96F85D52654F094009CE67C /* NativeNestingRNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96F85B12654F091009CE67C /* NativeNestingRN */ = {
+			isa = PBXGroup;
+			children = (
+				A998CAF72657AFAC008AC983 /* Network */,
+				A998CABF2657A89E008AC983 /* index.ios.bundle */,
+				A96F85B22654F091009CE67C /* AppDelegate.h */,
+				A96F85B32654F091009CE67C /* AppDelegate.m */,
+				A96F85B82654F091009CE67C /* ViewController.h */,
+				A96F85B92654F091009CE67C /* ViewController.m */,
+				A96F85BB2654F091009CE67C /* Main.storyboard */,
+				A96F85BE2654F094009CE67C /* Assets.xcassets */,
+				A96F85C02654F094009CE67C /* LaunchScreen.storyboard */,
+				A96F85C32654F094009CE67C /* Info.plist */,
+				A96F85C42654F094009CE67C /* main.m */,
+			);
+			path = NativeNestingRN;
+			sourceTree = "<group>";
+		};
+		A96F85CD2654F094009CE67C /* NativeNestingRNTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96F85CE2654F094009CE67C /* NativeNestingRNTests.m */,
+				A96F85D02654F094009CE67C /* Info.plist */,
+			);
+			path = NativeNestingRNTests;
+			sourceTree = "<group>";
+		};
+		A96F85D82654F094009CE67C /* NativeNestingRNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A96F85D92654F094009CE67C /* NativeNestingRNUITests.m */,
+				A96F85DB2654F094009CE67C /* Info.plist */,
+			);
+			path = NativeNestingRNUITests;
+			sourceTree = "<group>";
+		};
+		A998CAF72657AFAC008AC983 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A998CAF82657AFAC008AC983 /* UploadFormParam.h */,
+				A998CAF92657AFAC008AC983 /* HttpRequest.m */,
+				A998CAFA2657AFAC008AC983 /* UploadFormParam.m */,
+				A998CAFB2657AFAC008AC983 /* HttpRequest.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE1ACDCE39130BC993E4C198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173071FE83256F0E9F4F31D4 /* libPods-NativeNestingRN.a */,
+				03C772864FBB7F867C8CE72E /* libPods-NativeNestingRN-NativeNestingRNUITests.a */,
+				70C1474FA9E8AE42150876EB /* libPods-NativeNestingRNTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96F85AE2654F091009CE67C /* NativeNestingRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96F85DE2654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRN" */;
+			buildPhases = (
+				A0F0C5688949530975856188 /* [CP] Check Pods Manifest.lock */,
+				A96F85AB2654F091009CE67C /* Sources */,
+				A96F85AC2654F091009CE67C /* Frameworks */,
+				A96F85AD2654F091009CE67C /* Resources */,
+				AC8FA0E5557BA8EAA43B49CF /* [CP] Embed Pods Frameworks */,
+				27CF3FFEACD01D69B173D7F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeNestingRN;
+			productName = NativeNestingRN;
+			productReference = A96F85AF2654F091009CE67C /* NativeNestingRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A96F85C92654F094009CE67C /* NativeNestingRNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96F85E12654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRNTests" */;
+			buildPhases = (
+				37D6E0EA2E863AC8A724092F /* [CP] Check Pods Manifest.lock */,
+				A96F85C62654F094009CE67C /* Sources */,
+				A96F85C72654F094009CE67C /* Frameworks */,
+				A96F85C82654F094009CE67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96F85CC2654F094009CE67C /* PBXTargetDependency */,
+			);
+			name = NativeNestingRNTests;
+			productName = NativeNestingRNTests;
+			productReference = A96F85CA2654F094009CE67C /* NativeNestingRNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A96F85D42654F094009CE67C /* NativeNestingRNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96F85E42654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRNUITests" */;
+			buildPhases = (
+				EEB6FC4562C0E55528E21092 /* [CP] Check Pods Manifest.lock */,
+				A96F85D12654F094009CE67C /* Sources */,
+				A96F85D22654F094009CE67C /* Frameworks */,
+				A96F85D32654F094009CE67C /* Resources */,
+				B6CA5EFBA658A5DC749AC793 /* [CP] Embed Pods Frameworks */,
+				F389EA586F861C908B0B8D27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A96F85D72654F094009CE67C /* PBXTargetDependency */,
+			);
+			name = NativeNestingRNUITests;
+			productName = NativeNestingRNUITests;
+			productReference = A96F85D52654F094009CE67C /* NativeNestingRNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96F85A72654F091009CE67C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A96F85AE2654F091009CE67C = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					A96F85C92654F094009CE67C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A96F85AE2654F091009CE67C;
+					};
+					A96F85D42654F094009CE67C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A96F85AE2654F091009CE67C;
+					};
+				};
+			};
+			buildConfigurationList = A96F85AA2654F091009CE67C /* Build configuration list for PBXProject "NativeNestingRN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A96F85A62654F091009CE67C;
+			productRefGroup = A96F85B02654F091009CE67C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96F85AE2654F091009CE67C /* NativeNestingRN */,
+				A96F85C92654F094009CE67C /* NativeNestingRNTests */,
+				A96F85D42654F094009CE67C /* NativeNestingRNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96F85AD2654F091009CE67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96F85C22654F094009CE67C /* LaunchScreen.storyboard in Resources */,
+				A998CAC02657A89E008AC983 /* index.ios.bundle in Resources */,
+				A96F85BF2654F094009CE67C /* Assets.xcassets in Resources */,
+				A96F85BD2654F091009CE67C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85C82654F094009CE67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85D32654F094009CE67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CF3FFEACD01D69B173D7F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D6E0EA2E863AC8A724092F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeNestingRNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F0C5688949530975856188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeNestingRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8FA0E5557BA8EAA43B49CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN/Pods-NativeNestingRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CA5EFBA658A5DC749AC793 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB6FC4562C0E55528E21092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeNestingRN-NativeNestingRNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F389EA586F861C908B0B8D27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeNestingRN-NativeNestingRNUITests/Pods-NativeNestingRN-NativeNestingRNUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96F85AB2654F091009CE67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A998CAFD2657AFAC008AC983 /* UploadFormParam.m in Sources */,
+				A96F85BA2654F091009CE67C /* ViewController.m in Sources */,
+				A998CABB26579F0A008AC983 /* File.swift in Sources */,
+				A96F85B42654F091009CE67C /* AppDelegate.m in Sources */,
+				A998CAFC2657AFAC008AC983 /* HttpRequest.m in Sources */,
+				A96F85C52654F094009CE67C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85C62654F094009CE67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96F85CF2654F094009CE67C /* NativeNestingRNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96F85D12654F094009CE67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96F85DA2654F094009CE67C /* NativeNestingRNUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A96F85CC2654F094009CE67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96F85AE2654F091009CE67C /* NativeNestingRN */;
+			targetProxy = A96F85CB2654F094009CE67C /* PBXContainerItemProxy */;
+		};
+		A96F85D72654F094009CE67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96F85AE2654F091009CE67C /* NativeNestingRN */;
+			targetProxy = A96F85D62654F094009CE67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96F85BB2654F091009CE67C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96F85BC2654F091009CE67C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A96F85C02654F094009CE67C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96F85C12654F094009CE67C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96F85DC2654F094009CE67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A96F85DD2654F094009CE67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96F85DF2654F094009CE67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274CA31A1A05EB1D402D346C /* Pods-NativeNestingRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeNestingRN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A96F85E02654F094009CE67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF62ED5CC78364CD8A8FB85 /* Pods-NativeNestingRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeNestingRN-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A96F85E22654F094009CE67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB86A43B1EAC152375AAF05 /* Pods-NativeNestingRNTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeNestingRN.app/NativeNestingRN";
+			};
+			name = Debug;
+		};
+		A96F85E32654F094009CE67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614F24BC8F974D89A7E5341C /* Pods-NativeNestingRNTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeNestingRN.app/NativeNestingRN";
+			};
+			name = Release;
+		};
+		A96F85E52654F094009CE67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EF4069A897441CB8F68ED7 /* Pods-NativeNestingRN-NativeNestingRNUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeNestingRN;
+			};
+			name = Debug;
+		};
+		A96F85E62654F094009CE67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E027026D088F2786D02704EA /* Pods-NativeNestingRN-NativeNestingRNUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeNestingRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NativeNestingRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeNestingRN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96F85AA2654F091009CE67C /* Build configuration list for PBXProject "NativeNestingRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96F85DC2654F094009CE67C /* Debug */,
+				A96F85DD2654F094009CE67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96F85DE2654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96F85DF2654F094009CE67C /* Debug */,
+				A96F85E02654F094009CE67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96F85E12654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96F85E22654F094009CE67C /* Debug */,
+				A96F85E32654F094009CE67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96F85E42654F094009CE67C /* Build configuration list for PBXNativeTarget "NativeNestingRNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96F85E52654F094009CE67C /* Debug */,
+				A96F85E62654F094009CE67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96F85A72654F091009CE67C /* Project object */;
+}
